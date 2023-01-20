@@ -1,0 +1,111 @@
+{
+  "root":[
+    {
+      "id": 1,
+      "isLeaf": false,
+      "name": "js",
+      "pid": 0,
+      "children": [
+        {
+          "id": 2,
+          "isLeaf": true,
+          "name": "File-js",
+          "pid": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "isLeaf": false,
+      "name": "CSS",
+      "pid": 0,
+      "children": [
+        {
+          "id": 4,
+          "isLeaf": true,
+          "name": "File-css",
+          "pid": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "isLeaf": false,
+      "name": "HTTP",
+      "pid": 0,
+      "children": [
+        {
+          "id": 6,
+          "isLeaf": true,
+          "name": "File-http",
+          "pid": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "isLeaf": false,
+      "name": "Markup",
+      "pid": 0,
+      "children": [
+        {
+          "id": 8,
+          "isLeaf": true,
+          "name": "File-markup",
+          "pid": 7
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "isLeaf": false,
+      "name": "Java",
+      "pid": 0,
+      "children": [
+        {
+          "id": 10,
+          "isLeaf": true,
+          "name": "File-java",
+          "pid": 9
+        }
+      ]
+    }
+  ],
+  "fileContent": [
+    {
+      "id": 2,
+      "code": "function hello(){\n console.log('Hello World')\n}",
+      "text": "text exercise-js",
+      "name": "File-js",
+      "type": "js"
+    },
+    {
+      "id": 4,
+      "code": ".topMenuTabs {\n width: 100%;\n min-height: 100vh;\n background-color: #a0a09b;\n}",
+      "text": "text exercise-css",
+      "name": "File-css",
+      "type": "css"
+    },
+    {
+      "id": 8,
+      "code": "<html>\n <body>\n  <h1>My First Heading</h1>\n  <p>My first paragraph.</p>\n </body>\n</html>",
+      "text": "text exercise-markup",
+      "name": "File-markup",
+      "type": "markup"
+    },
+    {
+      "id": 6,
+      "code": "<form ACTION='http://127.0.0.1:8000/Processes/ProcessHeader/RunByWebQuery6e8e72fb-0178-4d8c-a84d-d354debe4de9' method='get'>",
+      "text": "text exercise-http",
+      "name": "File-http",
+      "type": "http"
+    },
+    {
+      "id": 10,
+      "code": "class HelloWorld {\n public static void main (String args []) {System. out. println ('Hello World');\n} }",
+      "text": "text exercise-java",
+      "name": "File-java",
+      "type": "java"
+    }
+  ]
+}
